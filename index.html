@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/default/css-normalize.css">
+    <link rel="stylesheet" href="mainStyle.css">
+
+    <title>Miroslav Programátor</title>
+</head>
+<body>
+    <header>
+		<h1>Miroslav Bořek</h1>
+		<h2>iOS Developer</h2>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#projects">My Projects</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="about">
+			<h3>About Me</h3>
+			<p>I'am a student on IT school and I'am currently working in a small startup in Pardubice, Czechia. I speciallize in iOS developement with usage of swiftUI.</p>
+		</section>
+		<section id="projects">
+			<h3>My Projects</h3>
+			<div class="projects-container">
+
+				<div class="article">
+
+					<h4>Pex</h4>
+
+					<p>This was my first ever project, that i wrote on iOS. Its a basic pairs game. Statistics nad custom cards adding and removing is also included</p>
+
+					<div id="images">
+
+						<img src="images/pex-menu.png" alt="pex-menu">
+						<img src="images/pex-game.png" alt="pex-game">
+					</div>
+					
+				</div>
+
+				<div class="article">
+
+					<h4>BigBrainTime</h4>
+
+					<p>This was my second project, a basic quiz game with use of free public API for fetching questions. In the game setup you set player names, question categories, and question count. After the game, in the end game menu you can see statistics of the game and answers to all questions.</p>
+
+					<div id="images">
+
+						<img src="images/bigBrainTime.png" alt="bigbraintime-menu">
+						<img src="images/bigBrainTime-game.png" alt="bigbraintime-game">
+						<img src="images/bogBrainTime-gameEnd.png" alt="bigbraintime-gameend">
+					</div>
+					
+				</div>
+
+				<div class="article">
+
+					<h4>Darts</h4>
+
+					<p>This is a project that I'am currently working on, it is an application for counting scores in game of darts. It users firebase realtime database to store player data and statistics. </p>
+
+					<div id="images">
+
+					</div>
+
+					<p>this project is in its early developement so there is nothing to show.</p>
+					
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<h3>Contact Me</h3>
+			<form action="" method="post">
+
+				<label for="name">Name:</label>
+  				<input type="text" id="name" name="name" required>
+
+  				<label for="email">Email:</label>
+  				<input type="email" id="email" name="email" required>
+
+  				<label for="message">Message:</label>
+  				<textarea id="message" name="message" required></textarea>
+
+  				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023 Miroslav Bořek</p>
+	</footer>
+</body>
+</html>
